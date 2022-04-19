@@ -2,7 +2,7 @@ const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin"
 const { HotModuleReplacementPlugin } = require("webpack");
 const { merge } = require("webpack-merge");
 const common = require("./webpack.common");
-const outputPath = "../dist/static";
+const outputPath = "../dist";
 
 /** @type {import('webpack').Configuration} */
 const devConfig = {
