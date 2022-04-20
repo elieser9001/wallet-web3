@@ -100,3 +100,15 @@ table {
 .wallet-off {
 	color: #374151;
 }
+
+@media screen and (max-width: 768px) {
+    .tokens-list ul {
+        display: inline-block;        
+    }
+
+    .tokens-list {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
