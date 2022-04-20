@@ -111,4 +111,10 @@ table {
         justify-content: center;
         text-align: center;
     }
+
+	.wallet-address span {
+        display: block;
+        margin-top: 20px;
+        overflow-wrap: anywhere;
+    }
 }
